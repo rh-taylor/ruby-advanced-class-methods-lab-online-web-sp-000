@@ -48,7 +48,7 @@ class Song
     abc_sorted
   end
   
-  def new_from_filename(filename)
+  def self.new_from_filename(filename)
     file_array = filename.split (" - ")
     filename.chomp (".mp3")
     song.name = file_array[1]
