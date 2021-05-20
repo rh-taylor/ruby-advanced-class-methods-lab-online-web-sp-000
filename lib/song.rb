@@ -47,7 +47,8 @@ class Song
     abc_sorted = self.all.sort_by { |song| song.name }
     abc_sorted
   end
-    
+  
+  def new_from_filename(filename)  
     
     
 
