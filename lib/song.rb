@@ -54,6 +54,7 @@ class Song
     song = self.new
     song.name = file_array[1]
     song.artist_name = file_array[0]
+    song
   end
     
 
