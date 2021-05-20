@@ -49,7 +49,9 @@ class Song
   end
   
   def new_from_filename(filename)
-    
+    file_array = []
+    filename.split (" - ")
+    filename.chomp (".mp3")
   end
     
     
